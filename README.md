@@ -56,9 +56,9 @@ You should first run the Pytest test suite that currently contains three tests. 
 
 A summary of the tasks to be completed in this practical is below. Please note the first three tasks do not require any action from you besides running the appropriate commands and verifying errorless output. The main actions lies with tasks 4 and 5 below.
 
-1. Using the command given in the [Using Pyenv and Pipenv](#using-pyenv-and-pipenv) section below, run linting and reformatting tools.
-2. Make sure the program produces desired output similar to what is shown in the [Output](#output) section below.
-3. Install new dependencies using `pipenv install --dev`.
+1. Install new dependencies using `pipenv install --dev`.
+2. Using the command given in the [Using Pyenv and Pipenv](#using-pyenv-and-pipenv) section below, run linting and reformatting tools.
+3. Make sure the program produces desired output similar to what is shown in the [Output](#output) section below.
 4. Run testing and study its results. You will notice additions in the output made by the new plugins. Learn more about [`sugar`](https://github.com/Teemu/pytest-sugar) and [`clarity`](https://pypi.org/project/pytest-clarity/#description) plugins.
 5. Explore [code coverage](https://coverage.readthedocs.io/en/coverage-5.5/) and the report produced after coverage.
 6. Add test cases to improve the coverage. You should show improvement to coverage from the previous practical.
